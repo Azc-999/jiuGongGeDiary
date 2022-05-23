@@ -1,0 +1,47 @@
+#c{
+	color: #F00;
+}
+#register{
+	width:663px; 
+	height:421px; 
+	background-color:rgb(182,210,234); 
+	padding:4px; 
+	position:absolute; 
+	z-index:11;
+	padding: auto;
+	display: none;
+}
+#register table{
+	width: 100%;
+	white-space: 0;
+	border: none;
+	margin: auto;
+}
+#register table tr{
+	height: 50px;
+}
+#register table tr th{
+	letter-spacing: 50px;
+	font-size: 30px;
+	
+}
+#register input{
+	outline: none;
+	border: none;
+}
+#register input[type="text"],#register input[type="password"]{
+	height: 25px;
+	border-radius: 6px;
+}
+#register input[type="button"]{
+	border-radius: 5px;
+	width: 120px;
+	height: 30px;
+	margin:  0 10px 0 10px;
+}
+#register input[type="button"]:hover{
+	background-color: #87CEEB;
+}
+#register table tr td:first-child{
+	width: 240px;
+}
